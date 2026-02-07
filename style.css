@@ -10,21 +10,25 @@ body {
 
 .btn {
     display: flex;
-    gap: 30px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .button {
+    padding: 15px 30px;
+    font-size: 20px;
     width: 100px;
     height: 50px;
     border: none;
-    border-radius: 8px;
+    border-radius: 12px;
     color: white;
     cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .yes {
     background-color: #88ED99;
-    transition: width.5s, height.5s;
+
 }
 
 .no {
@@ -35,4 +39,8 @@ h1 {
     color: #f08080;
     text-transform: uppercase;
     font-size: 40px;
+}
+
+button:hover {
+    transform: scale(1.1);
 }

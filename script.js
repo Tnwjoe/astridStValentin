@@ -1,4 +1,4 @@
-function clickfunc() {
+function clickfun() {
     window.location.href = "page.yes.html"
 }
 function increazsize() {
